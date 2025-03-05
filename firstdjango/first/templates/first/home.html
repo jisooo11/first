@@ -1,14 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>자기소개</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<style>
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* 연한 파란색 */
+    text-align: center;
+}
+
+/* 프로필 사진 스타일 */
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* 원형 */
+    object-fit: cover;
+    border: 3px solid #ff6347; /* 테두리 색상 */
+}
+
+/* 제목 스타일 */
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* 버튼 스타일 */
+a {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    background-color: #ff6347;
+    border-radius: 5px;
+}
+
+</style>
 <body>
-    <h1>안녕하세요 {{name}} 입니다.</h1>
-    <p>좋아하는 음식은 <a href=
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.10000recipe.com%2Frecipe%2F6989824&psig=AOvVaw06FdC87ucF8t2QVpHcjk3V&ust=1741153119874000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLiznPva74sDFQAAAAAdAAAAABAE">
-    {{food}} </a> 입니다.</p>
+    <img src="https://img.freepik.com/free-photo/pet-dog-breed-animal-portrait-puppy-mammal_53876-30297.jpg" alt="사진" class="profile-img">
+    <h1>안녕하세요! 저는 {{name}} 입니다.</h1>
+    <p>💡 안녕하세요! 저는 {{interest1}}과 {{interest2}}을 좋아하는 개발자 {{name}}입니다.<br>
+        문제를 해결하는 데 열정적이고, 새로운 기술을 배우는 것을 즐깁니다.<br> 
+        <br>
+        함께 프로젝트를 진행하거나 협업할 기회가 있으면 좋겠습니다! </p>
+    <br>
+    <a href="https://github.com/jisooo11" target="_blank" class="btn">깃허브 방문</a>
+</body>
+</html>
 </body>
 </html>
